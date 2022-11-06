@@ -4,7 +4,7 @@ class _HomeMobileView extends ViewModelWidget<HomeViewModel> {
   @override
   Widget build(BuildContext context, HomeViewModel viewModel) {
     return Scaffold(
-      appBar: MyAppBar(title: "FNews app"),
+      appBar: MyAppBar(title: "FNews app", visibleNewsLogoWithTitle: true),
       body: _mobileBody(viewModel),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.amber,

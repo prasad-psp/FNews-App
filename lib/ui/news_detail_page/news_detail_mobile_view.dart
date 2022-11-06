@@ -6,7 +6,7 @@ class _NewsDetailMobileView extends ViewModelWidget<NewsDetailViewModel> {
     var model = viewModel.getNews;
 
     return Scaffold(
-      appBar: MyAppBar(title: ""),
+      appBar: MyAppBar(visibleNewsLogoWithTitle: false),
       body: _mobileBody(model),
     );
   }

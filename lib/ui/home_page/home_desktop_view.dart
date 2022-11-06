@@ -6,7 +6,7 @@ class _HomeDesktopView extends ViewModelWidget<HomeViewModel> {
     var width = MediaQuery.of(context).size.width / 2.2;
 
     return Scaffold(
-      appBar: MyAppBar(title: "FNews app"),
+      appBar: MyAppBar(title: "FNews app", visibleNewsLogoWithTitle: true),
       body: _desktopBody(viewModel, width),
     );
   }
